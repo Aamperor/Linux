@@ -1,0 +1,20 @@
+Step 1:Add fcitx
+Open {terminal}(Ctrl + Alt + T), <sudo add-apt-repository ppa:fcitx-team/nightly>,then <sudo apt-get update>
+next,<sudo apt-get install fcitx>,<sudo apt-get install fcitx-config-gtk>
+<sudo apt-get install fcitx-table-all>,choose Y
+<sudo apt-get install im-switch>,to check if fcitx has been installed,open {search your computer},and enter "fcitx", if your system can
+find it, that is,it has been installed successfuly,or not
+
+Step2:Install Sougou Input Method
+Download it on https://pinyin.sogou.com/linux/?r=pinyin
+open what the package is in,for example, gennerally it's on the catalog of /Downloads,thus use the command <cd Downloads/> to open
+<ls>, it will tell you what is in the atalog
+<sudo dpkg -i package_name>,then it may appear some errors, ignore them
+
+Step 3:Setting Language Support,system settings -> language support -> keyboard inout method system, make it be fcitx,
+the log out, log in, make Sougou Pinyin Input Method default
+
+
+//what in the <> is commands, what in the {} is sofware, and in the ()is hot keys
+
+
