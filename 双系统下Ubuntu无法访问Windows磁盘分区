@@ -1,0 +1,4 @@
+解决办法：
+1.安装ntfs:sudo apt-get install ntfs-3g;
+2.修复挂载：sudo ntfsfix /dev/das*(das*表示你要修复的磁盘号);
+执行上面两步后可能C盘还是不能访问
